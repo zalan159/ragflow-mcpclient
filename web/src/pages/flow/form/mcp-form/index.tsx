@@ -21,7 +21,7 @@ const PRESET_SERVERS = {
           "@amap/amap-maps-mcp-server"
       ],
     env: {
-        AMAP_MAPS_API_KEY: "your api key71b4a42ec170187283e2fc814"
+        AMAP_MAPS_API_KEY: "your api key"
       }
   },
   "custom": {
