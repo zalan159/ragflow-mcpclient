@@ -109,7 +109,7 @@ class MCP(ComponentBase):
     component_name = "MCP"
     
     # API配置
-    API_KEY = "your api key"
+    API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
     BASE_URL = "https://api.deepseek.com/v1"
     MODEL_NAME = "deepseek-chat"
 
